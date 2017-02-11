@@ -14,6 +14,5 @@ COPY yandex-disk.sh /
 RUN mkdir -p /yandex-disk
 VOLUME /yandex-disk
 
-CMD /yandex-disk.sh
-
+ENTRYPOINT [ "/yandex-disk.sh" ]
 
