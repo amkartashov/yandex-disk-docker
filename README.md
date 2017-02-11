@@ -8,6 +8,8 @@ Continuous or one-time sync of whole Yandex.Disk to the local directory
 
 ## Usage
 
+### Prepare
+
 Before running it is needed to prepare volume for data sync:
 
 * create directories
@@ -23,6 +25,8 @@ Disk will be synced to /path/to/volume/data, client configuration is saved to /p
 > vim /path/to/volume/conf/pass
 
 Token will be generated on the first run and both user and pass will be deleted.
+
+### Run
 
 To start in continuous mode:
 
