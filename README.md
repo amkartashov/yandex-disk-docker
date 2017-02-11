@@ -11,11 +11,13 @@ Continuous or one-time sync of whole Yandex.Disk to the local directory
 Before running it is needed to prepare volume for data sync:
 
 * create directories
+
 > mkdir /path/to/volume/{conf,data}
 
 Disk will be synced to /path/to/volume/data, client configuration is saved to /path/to/volume/conf.
 
 * add credentials
+
 > vim /path/to/volume/conf/user
 > vim /path/to/volume/conf/pass
 
