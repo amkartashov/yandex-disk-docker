@@ -19,6 +19,7 @@ Disk will be synced to /path/to/volume/data, client configuration is saved to /p
 * add credentials
 
 > vim /path/to/volume/conf/user
+
 > vim /path/to/volume/conf/pass
 
 Token will be generated on the first run and both user and pass will be deleted.
